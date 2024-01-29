@@ -1,0 +1,69 @@
+.navimg{
+    color: transparent;
+    width: 32px;
+    height: 32px;
+}
+.testimonials{
+    text-align: center;
+    /* background-color: #ef8172;
+    color: #fff; */
+}
+.Testimonials-img{
+    margin: auto;
+  }
+  /* Custom CSS */
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Ensures carousel items take full height */
+}
+
+.Testimonials-img {
+    max-width: 100%; /* Ensures images don't exceed container width */
+    width: 555px;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #787474;
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    /* color: #ef8172; */
+    margin-bottom: 1rem;
+    margin-bottom: 10px;
+}
+.icon:hover{
+    color: #837578;
+}
+#features{
+    margin-top: 80px;
+    padding: 7% 15%;
+    background-color: #eae5e562;
+    position: relative;
+    z-index: 1;
+}
+/* Custom CSS */
+#testimonials2 h2 {
+    margin-bottom: 30px; /* Add some bottom margin for spacing */
+}
+.Testimonials2-img {
+    max-width: 100%; /* Ensures images don't exceed container width */
+    width: 555px;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #eae5e562;
+}
+.social-icon{
+    margin:20px 10px;
+    color:black;
+}
+.social-icon:hover{
+    color:#ff4c68;
+}
