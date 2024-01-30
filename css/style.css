@@ -67,3 +67,59 @@
 .social-icon:hover{
     color:#ff4c68;
 }
+
+/* .navbar.fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff; /* Adjust as needed */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Optional: Add shadow for better visibility */
+/* } */
+
+/* Add margin-top to body to compensate for the fixed navbar */
+/* body { */
+    /* margin-top: 56px; Adjust according to your navbar height */
+/* } */ 
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Ensure the image covers the entire space */
+}
+.move{
+    padding-left: 200px;
+
+}
+/* .mok .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.mok .nav-link {
+    padding: 1rem; /* Adjust as needed */
+/* }  */
+
+.ok{
+    width: 87px;
+    height: 24px;
+    position: relative;
+    margin-left: 200px;
+    box-sizing: border-box;
+    overflow: visible;
+    visibility: inherit;
+}
+.spnav{
+    margin-left: 50px;
+}
+.mnav{
+    margin-left: 50px;
+}
+.topnav{
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.unortop{
+    /* margin-left: 80px; */
+}
+.topli{
+    margin-left: 20px;
+}
