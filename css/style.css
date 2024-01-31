@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@500&display=swap');
 .navimg{
     color: transparent;
     width: 32px;
@@ -98,7 +99,7 @@
     padding: 1rem; /* Adjust as needed */
 /* }  */
 
-.ok{
+/* .ok{
     width: 87px;
     height: 24px;
     position: relative;
@@ -106,20 +107,97 @@
     box-sizing: border-box;
     overflow: visible;
     visibility: inherit;
-}
+} */
 .spnav{
     margin-left: 50px;
 }
-.mnav{
-    margin-left: 50px;
-}
+/* .mnav{ */
+    /* margin-left: 50px; */
+/* } */
 .topnav{
     margin-left: 100px;
     margin-right: 0px;
 }
-.unortop{
+/* .unortop{ */
     /* margin-left: 80px; */
-}
+/* } */
 .topli{
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
+.nt{
+    background-color: #e5dcdc62;
+}
+.caro2{
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate__animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .corotext{
+    /* font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif; */
+    color: rgb(255, 255, 255);
+  }
+  .opoa{
+    opacity: 0.8;
+  }
+  /* Adjust the position of carousel-caption */
+.carousel-caption {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Adjust the position of buttons */
+.corotext {
+    color: white;
+}
+
+.buto {
+    position: relative;
+    margin-top: 1rem; /* Adjust the margin as needed */
+}
+.corac{
+    background-color: #eae5e562;
+}
+/* .testimony-layout-1 div.testimony-content::before {
+    color: #ed1c24 !important;
+}
+
+.testimony-layout-1 div.testimony-content:before {
+    background: transparent;
+    color: #80b435;
+    content: '\f10d';
+    display: block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 48px;
+    font-style: normal;
+    height: 48px;
+    left: 0;
+    opacity: 0.5;
+    margin-left: 0px;
+    line-height: 48px;
+    position: absolute;
+    text-align: center;
+    top: -6px;
+    width: 48px; 
+} */
