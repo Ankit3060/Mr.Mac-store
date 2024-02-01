@@ -42,7 +42,7 @@
 }
 #features{
     margin-top: 80px;
-    padding: 7% 15%;
+    padding: 5% 5%;
     background-color: #eae5e562;
     position: relative;
     z-index: 1;
@@ -201,3 +201,38 @@
     top: -6px;
     width: 48px; 
 } */
+
+/* .containered {
+    max-width: 960px; /* Adjust the maximum width as needed */
+    /* margin: 0 auto; Center the section horizontally */
+/* } */
+.proact{
+    margin-left: 50px;
+}
+.proact2{
+    margin-left: 222px;
+}
+.proact3{
+    margin-left: 166px;
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for small screens */
+    .proact h1 {
+        font-size: 24px;
+        /* display: none; */
+    }
+    .proact2 {
+        /* font-size: 18px; */
+    }
+    .proact3 {
+        /* font-size: 16px;  */
+        
+    }
+}
+.quote{
+    /* background: rgb(234, 229, 229); */
+    background: #e6e0e0;
+    background-color: #e4dcdc62;
+    margin-right: 60%;
+}
