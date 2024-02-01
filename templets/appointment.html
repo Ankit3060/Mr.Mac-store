@@ -1,140 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
-    <script src="https://kit.fontawesome.com/d739e66e80.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d739e66e80.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-    <div class="container">
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/"><img class="navimg" src="/images/sr9Ji9OT1bnmdx4FniNK.jpeg" alt="">Mr. Mac</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/templets/about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">From Mac Station</a></li>
-                  <li><a class="dropdown-item" href="#">Bulet Repair</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/templets/sales.html">Sales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/templets/appointment.html">Support</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="social-icon fa-brands fa-facebook"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="social-icon fa-brands fa-instagram"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="social-icon fa-brands fa-twitter"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="social-icon fa-solid fa-envelope"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="social-icon fa-brands fa-whatsapp"></i></a>
-                </li>
-                
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit">Search</button>
-            </form>
+<body>
+  <div class="container">
+
+    <!-- Top NavBar -->
+    <nav class="navbar navbar-expand-lg d-none d-lg-none d-xl-block nt">
+      <div class="container-fluid ">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="/"><img class="navimg" src="/images/sr9Ji9OT1bnmdx4FniNK.jpeg" alt="">Mr.
+            Mac</a>
+          <img src="/images/Why MacMan.jpg" alt="Promise" width="100" height="50">
+        </div>
+        <div class="d-flex align-items-center">
+          <a class="nav-link" href="/templets/appointment.html"><i class="social-icon fa-solid fa-envelope"></i>Contact
+            Us</a>
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#newsletterModal"><i
+              class="social-icon fa-regular fa-newspaper"></i>Newsletter</a>
+          <a class="nav-link" href="#"><i class="social-icon fa-regular fa-calendar-days"></i>Mon - Sun - 10a - 10p</a>
+        </div>
+        <div class="header-phone style-02 ">
+          <div class="icon">
+          </div>
+          <div class="content">
+            <p class="subtitle "><i class="social-icon fa-solid fa-phone-volume"></i> For Sales:<a
+                href="tel:(+91)8500007505">(+91)8500007505</a></p>
           </div>
         </div>
+        <a class="navbar-brand" href="#"><i class="social-icon fa-solid fa-user"></i>Log into Mr.Mac</a>
+        <a class="nav-link" href="#"><i class="social-icon fa-regular fa-heart"></i></a>
+        <a class="nav-link" href="#"><i class="social-icon fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </nav>
+
+    <!-- Down NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex align-items-center d-sm-none">
+          <a class="navbar-brand" href="/"><img class="navimg" src="/images/sr9Ji9OT1bnmdx4FniNK.jpeg" alt="">Mr.
+            Mac</a>
+          <img src="/images/Why MacMan.jpg" alt="Promise" width="100" height="50">
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item spnav">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown spnav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templets/about.html">About Us</a></li>
+                <li><a class="dropdown-item" href="/templets/appointment.html">Contact Us</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">FAQ</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">Why Mr.Mac?</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">iPhones & Flagship Mobiles</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">iPads</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">i & Premium Watches</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">Accessories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown spnav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Sales
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templets/sales.html">MacBooks</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">Laptops</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">iMac</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">Mac Studio & Mini</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">iPhones & Flagship Mobiles</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">iPads</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">i & Premium Watches</a></li>
+                <li><a class="dropdown-item" href="/templets/sales.html">Accessories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown spnav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Advantages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templets/about.html">Explore Advantages</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">Advantages for Mac</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">Advantages for iPhone</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">Mr.Mac +Protection</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">Advantages for Business</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item spnav">
+                      <a class="nav-link" href="/templets/sales.html">Sales</a>
+                  </li> -->
+            <li class="nav-item dropdown spnav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templets/about.html">All Blog Posts</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">iPad buyers guide</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">How old is my Mac?</a></li>
+                <li><a class="dropdown-item" href="/templets/about.html">How old is my iPad?</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown spnav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templets/appointment.html">Schedule Pickup</a></li>
+                <li><a class="dropdown-item" href="/templets/appointment.html">Schedule Appointment</a></li>
+                <li><a class="dropdown-item" href="#">Macbook Repair</a></li>
+                <li><a class="dropdown-item" href="#">Laptop Repair</a></li>
+                <li><a class="dropdown-item" href="#">Data Recovery</a></li>
+                <li><a class="dropdown-item" href="#">On Site Service</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown spnav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Support
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templets/sales.html">In Store Support</a></li>
+                <li><a class="dropdown-item" href="#">Remote Support</a></li>
+                <li><a class="dropdown-item" href="#">In Store Classes</a></li>
+                <li><a class="dropdown-item" href="#">Setting Up Your New Mac</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto d-flex topnav ">
+            <li class="nav-item topli">
+              <a class="nav-link" href="#"><i
+                  class="social-icon fa-brands fa-facebook d-none d-lg-none d-xl-block"></i></a>
+            </li>
+            <li class="nav-item topli">
+              <a class="nav-link" href="#"><i
+                  class="social-icon fa-brands fa-instagram d-none d-lg-none d-xl-block"></i></a>
+            </li>
+            <li class="nav-item topli">
+              <a class="nav-link" href="#"><i
+                  class="social-icon fa-brands fa-whatsapp d-none d-lg-none d-xl-block"></i></a>
+            </li>
+            <li class="nav-item topli">
+              <a class="nav-link" href="#"><i
+                  class="social-icon fa-brands fa-linkedin d-none d-lg-none d-xl-block"></i></a>
+            </li>
+            <li class="nav-item topli">
+              <a class="nav-link" href="#"><i
+                  class="social-icon fa-solid fa-location-dot d-none d-lg-none d-xl-block"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!-- Appointment Form -->
     <div class="row justify-content-center">
-        <div class="col-lg-6">
-            <form class="mt-6" action="mailto:ankit330660@gmail.com" method="post" enctype="text/plain">
-                <div class="mb-3">
-                    <label for="fullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" name="fullName">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="email">
-                </div>
-                <div class="mb-3">
-                    <label for="appointmentDate" class="form-label">Appointment Date</label>
-                    <input type="date" class="form-control" id="appointmentDate" name="appointmentDate">
-                </div>
-                <div class="mb-3">
-                    <label for="phoneNo" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="phoneNo" name="phoneNo">
-                </div>
-                <div class="mb-3">
-                    <label for="product" class="form-label">Choose Product</label>
-                    <select class="form-select" id="product" name="product">
-                        <option value="mobile">Mobile</option>
-                        <option value="laptop">Laptop</option>
-                        <option value="ipad">iPad</option>
-                        <option value="macBook">MacBook</option>
-                        <option value="PS">PS</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="productDescription" class="form-label">Description about the Product</label>
-                    <textarea class="form-control" id="productDescription" name="productDescription" rows="3"></textarea>
-                </div>
-                <div class="mb-3">
-                    <label for="productImage" class="form-label">Upload Image of Product Damage</label>
-                    <input type="file" class="form-control" id="productImage" name="productImage">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
+      <div class="col-lg-6">
+        <form class="mt-6" action="mailto:Mrmactech7@gmail.com" method="post" enctype="text/plain">
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" name="fullName">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="appointmentDate" class="form-label">Appointment Date</label>
+            <input type="date" class="form-control" id="appointmentDate" name="appointmentDate">
+          </div>
+          <div class="mb-3">
+            <label for="phoneNo" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phoneNo" name="phoneNo">
+          </div>
+          <div class="mb-3">
+            <label for="product" class="form-label">Choose Product</label>
+            <select class="form-select" id="product" name="product">
+              <option value="mobile">Mobile</option>
+              <option value="laptop">Laptop</option>
+              <option value="ipad">iPad</option>
+              <option value="macBook">MacBook</option>
+              <option value="PS">PS</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="productDescription" class="form-label">Description about the Product</label>
+            <textarea class="form-control" id="productDescription" name="productDescription" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="productImage" class="form-label">Upload Image of Product Damage</label>
+            <input type="file" class="form-control" id="productImage" name="productImage">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </div>
 
-    <!-- footer  -->
-    <footer id="footer">
-        <a href="#"><i class="social-icon fa-brands fa-linkedin" ></i></a>
-        <a href="#"><i class="social-icon fa-brands fa-facebook"></i></a>
-        <a  href="#"><i class="social-icon fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="social-icon fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="social-icon fa-solid fa-envelope"></i></a>
-        <a href="#"><i class="social-icon fa-brands fa-whatsapp"></i></a>
-        <p>© Copyright Mr. Mac</p>
-    
-    </footer>
-</div>
+     <!-- footer  -->
+     <footer id="footer">
+      <a href="#"><i class="social-icon fa-brands fa-linkedin" ></i></a>
+      <a href="#"><i class="social-icon fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="social-icon fa-brands fa-instagram"></i></a>
+      <!-- <form action="mailto:Mrmactech7@gmail.com" method="post" enctype="text/plain"></form> -->
+      <a  href="#"><i class="social-icon fa-solid fa-envelope"></i></a>
+      <a href="#"><i class="social-icon fa-brands fa-whatsapp"></i></a>
+      <p>© Copyright Mr. Mac</p>
+  
+  </footer>
+  </div>
 </body>
+
 </html>
