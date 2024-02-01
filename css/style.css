@@ -246,3 +246,17 @@
 .mbtn{
     margin-left: 3.5rem;
 }
+.contacthead{
+    margin-left: 35rem;
+}
+.contactheads{
+    margin-left: 22rem;
+}
+@media (max-width: 768px) {
+    .contacthead{
+        margin-left: 100px;
+    }
+    .contactheads{
+        margin-left: 80px;
+    }
+}
