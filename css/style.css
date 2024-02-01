@@ -207,13 +207,13 @@
     /* margin: 0 auto; Center the section horizontally */
 /* } */
 .proact{
-    margin-left: 50px;
+    margin-left: 12.5rem;
 }
 .proact2{
-    margin-left: 222px;
+    margin-left: 290px;
 }
 .proact3{
-    margin-left: 166px;
+    margin-left: 246px;
 }
 
 @media (max-width: 768px) {
@@ -234,5 +234,12 @@
     /* background: rgb(234, 229, 229); */
     background: #e6e0e0;
     background-color: #e4dcdc62;
-    margin-right: 60%;
+    margin-right: 5%;
+    height: 70px;
+}
+.location{
+    margin-left: 30rem;
+}
+.locations{
+    margin-left: 34rem;
 }
